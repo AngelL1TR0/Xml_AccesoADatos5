@@ -15,7 +15,7 @@ public class ServiceMarshall {
     private Factura createInvoice() {
         Factura factura = new Factura();
         factura.setNFac(new BigInteger(999));
-        factura.setDatosEmpresa( createCompanyData();
+        factura.setDatosEmpresa(createCompanyData();
         factura.setDatosFactura(createInvoice());
         factura.setDatosCliente(createCliente());
 
